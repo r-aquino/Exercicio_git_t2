@@ -1,0 +1,130 @@
+
+Rafael Aquino@Rafael MINGW64 ~/Desktop/Exerc_Git/Exercicio_git_t2 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Cor.txt
+        Frase.txt
+        Fruta.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Rafael Aquino@Rafael MINGW64 ~/Desktop/Exerc_Git/Exercicio_git_t2 (master)
+$ git add frase.txt
+
+Rafael Aquino@Rafael MINGW64 ~/Desktop/Exerc_Git/Exercicio_git_t2 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Cor.txt
+        Frase.txt
+        Fruta.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Rafael Aquino@Rafael MINGW64 ~/Desktop/Exerc_Git/Exercicio_git_t2 (master)
+$ git add Frase.txt
+
+Rafael Aquino@Rafael MINGW64 ~/Desktop/Exerc_Git/Exercicio_git_t2 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Frase.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Cor.txt
+        Fruta.txt
+
+
+Rafael Aquino@Rafael MINGW64 ~/Desktop/Exerc_Git/Exercicio_git_t2 (master)
+$ git add .
+
+Rafael Aquino@Rafael MINGW64 ~/Desktop/Exerc_Git/Exercicio_git_t2 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Cor.txt
+        new file:   Frase.txt
+        new file:   Fruta.txt
+
+
+Rafael Aquino@Rafael MINGW64 ~/Desktop/Exerc_Git/Exercicio_git_t2 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Cor.txt
+        new file:   Frase.txt
+        new file:   Fruta.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Cor.txt
+
+
+Rafael Aquino@Rafael MINGW64 ~/Desktop/Exerc_Git/Exercicio_git_t2 (master)
+$ git add .
+
+Rafael Aquino@Rafael MINGW64 ~/Desktop/Exerc_Git/Exercicio_git_t2 (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Cor.txt
+        new file:   Frase.txt
+        new file:   Fruta.txt
+
+
+Rafael Aquino@Rafael MINGW64 ~/Desktop/Exerc_Git/Exercicio_git_t2 (master)
+$ git commit -m "primeiro commit"
+[master (root-commit) 034a1d1] primeiro commit
+ 3 files changed, 4 insertions(+)
+ create mode 100644 Cor.txt
+ create mode 100644 Frase.txt
+ create mode 100644 Fruta.txt
+
+Rafael Aquino@Rafael MINGW64 ~/Desktop/Exerc_Git/Exercicio_git_t2 (master)
+$ git status
+On branch master
+Your branch is based on 'origin/master', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+nothing to commit, working tree clean
+
+Rafael Aquino@Rafael MINGW64 ~/Desktop/Exerc_Git/Exercicio_git_t2 (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 314 bytes | 78.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/r-aquino/Exercicio_git_t2.git
+ * [new branch]      master -> master
+
+Rafael Aquino@Rafael MINGW64 ~/Desktop/Exerc_Git/Exercicio_git_t2 (master)
+$
